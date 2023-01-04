@@ -1,0 +1,33 @@
+.height {
+  height: 100vh;
+}
+
+.bg-grey {
+  background-color: grey;
+}
+
+.gb {
+  z-index: -19;
+}
+
+.dc {
+  text-decoration: none;
+  transition: 0.5s;
+  display: inline-block;
+  width: inherit;
+}
+.navbar {
+  z-index: 20;
+}
+.dc:hover {
+  transform: translateX(15px);
+  text-decoration: underline;
+}
+
+.underline {
+  text-decoration: line-through;
+}
+
+.top {
+  top: 60px;
+}
